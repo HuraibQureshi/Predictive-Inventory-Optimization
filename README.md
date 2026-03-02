@@ -41,6 +41,7 @@ ________________________________________
 
 
 3. Data Engineering: Building the Foundation
+
 3.1 The "Warehouse First" Approach
 I did not just load a CSV file; I built a Relational Data Warehouse. Using SQLite, I modelled the relationship between customers, orders, and products. This reflects a real-world production environment where data is messy and spread across multiple tables.
  
