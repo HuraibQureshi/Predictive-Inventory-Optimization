@@ -18,13 +18,13 @@ This project addresses inventory stockouts in e-commerce by predicting demand us
 
 
 
-### Technical Case Study: Predictive Inventory Optimization
+# Technical Case Study: Predictive Inventory Optimization
 
-# Author: Mohammed Huraib Qureshi
+### Author: Mohammed Huraib Qureshi
 
-# Target Impact: 15–20% Reduction in Stockout Occurrences
+### Target Impact: 15–20% Reduction in Stockout Occurrences
 
-# Technologies: Python (Scikit-Learn, Pandas), SQL (Relational Design), XGBoost, Tableau
+### Technologies: Python (Scikit-Learn, Pandas), SQL (Relational Design), XGBoost, Tableau
 ________________________________________
 ## 1. Abstract: The Vision
 In the world of e-commerce, data is the heartbeat of the warehouse. This project was born from a simple observation: manual inventory counts are reactive and prone to human error. I set out to build an end-to-end pipeline using the O-list Brazilian E-Commerce dataset to prove that we can move from "guessing" what we need to "knowing" what we need. By combining SQL-based data warehousing with an optimized Random Forest model, I achieved a Mean Absolute Error (MAE) of 10.6, creating a system that tells a warehouse manager exactly when to reorder before the shelf goes empty.
@@ -42,10 +42,10 @@ ________________________________________
 
 ## 3. Data Engineering: Building the Foundation
 
-# 3.1 The "Warehouse First" Approach
+### 3.1 The "Warehouse First" Approach
 I did not just load a CSV file; I built a Relational Data Warehouse. Using SQLite, I modelled the relationship between customers, orders, and products. This reflects a real-world production environment where data is messy and spread across multiple tables.
  
-# 3.2 Feature Engineering: Teaching the AI "Time"
+### 3.2 Feature Engineering: Teaching the AI "Time"
 A model is only as smart as the data it's fed. I focused on Temporal Intelligence:
 •	Human Cycles: I taught the model to recognize weekends and month-end shopping spikes.
 •	Short-term Memory (Lags): I created a 7-day "lag" feature so the model knows what happened exactly one week ago.
